@@ -1,0 +1,148 @@
+body {
+  font-family: "Jersey 15", sans-serif;
+  font-size: 1.5rem;
+
+}
+
+h1.card-title {
+  word-break: break-all;
+  max-width: 100%;
+
+  font-size: 0.8rem;
+  text-align: center;
+
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: oblique;
+
+  color: rgb(97, 106, 107);
+}
+
+/* navbar */
+.navbar-brand {
+  font-family: "Jersey 15", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.8rem;
+}
+
+.nav-link {
+  font-family: "Jersey 15", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.2rem;
+}
+
+
+/* search bar */
+#search-bar-container {
+  display: flex;
+  justify-content: center;
+}
+
+#inlineFormInputGroupUsername::placeholder {
+  font-style: italic;
+  font-size: small;
+  color: rgba(97, 106, 107, 0.8);
+}
+
+#search-submit-btn {
+  color: rgb(246, 246, 246);
+  background-color: rgba(97, 106, 107, 1);
+}
+
+#search-submit-btn:hover {
+  color: rgba(97, 106, 107, 1);
+  background-color: rgba(97, 105, 107, 0.2);
+}
+
+/* user */
+
+
+
+/* card */
+#data-panel {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.card-img-top:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s ease-in-out;
+}
+
+/* love-icon */
+.love-icon {
+  font-size: 25px;
+  color: rgb(204, 204, 204);
+}
+
+.love-icon:hover {
+  font-size: 25px;
+  color: rgb(246, 57, 57, 0.3);
+}
+
+/* class之間不能空格! */
+.love-icon.active {
+  font-size: 30px;
+  color: rgb(246, 57, 57);
+}
+
+
+/* carousel */
+.carousel-inner {
+  display: flex;
+  justify-items: center;
+  height: 20vw;
+  background-color: rgb(66, 63, 63);
+}
+
+.carousel-inner img {
+  opacity: 0.7;
+}
+
+.carousel-caption h5 {
+  font-family: "Jersey 15", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 2rem;
+}
+
+.carousel-caption h4 {
+  font-family: "Jersey 15", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 1.9rem;
+}
+
+.carousel-caption p {
+  font-family: "Jersey 15", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+/* card */
+.card {
+  width: 15vw;
+  background-color: rgb(255, 255, 255);
+}
+
+.card:hover {
+  background-color: rgba(122, 122, 122, 0.1);
+}
+
+
+/* paginator */
+#paginator a {
+  color: rgba(97, 106, 107, 0.5);
+}
+
+#paginator .active {
+  color: rgba(243, 243, 243, 0.8);
+  background-color: rgb(117, 126, 126);
+  border-color: rgb(117, 126, 126);
+}
